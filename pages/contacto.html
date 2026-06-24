@@ -8,23 +8,23 @@
   </head>
   <body>
     <header>
-      <img src="./imagen4/logo1.png" alt="logo" width="70" height="70" />
-
+      <div class="logo">
+        <img
+          src="./imagen4/logo1.png"
+          alt="imagen del logo"
+          width="70"
+          height="70"
+        />
+      </div>
       <nav class="header-nav">
         <ul>
-          <li>
-            <a href="./index.html">Inicio</a>
-          </li>
-          <li>
-            <a href="./contacto.html">Contacto</a>
-          </li>
+          <li><a href="../index.html">Inicio</a></li>
+          <li><a href="./contacto.html">Contacto</a></li>
           <li>
             <a href="./carrito.html" class="carrito-icono"
-              ><img src="./imagen4/72.png" height="30" width="30" /><span
-                id="contador-carrito"
-                >0</span
-              ></a
-            >
+              ><img src="../imagen4/72.png" width="30" height="30" />
+              <span id="contador-carrito">0</span>
+            </a>
           </li>
         </ul>
       </nav>
@@ -54,13 +54,15 @@
       <p>Sitio realizado por Karen para Talento Tech</p>
       <nav>
         <ul class="footer-list">
-          <li><img src="./imagen4/social.png" alt="logo de whatsapp" /></li>
           <li>
-            <img src="./imagen4/instagram.png" alt="logo de instagram" />
+            <img src="../imagen4/social.png" alt="logo de whatsapp" />
+          </li>
+          <li>
+            <img src="../imagen4/instagram.png" alt="logo de instagram" />
           </li>
         </ul>
       </nav>
     </footer>
-    <script type="module" src="../js/contacto.js"></script>
+    <script type="module" src="./js/contacto.js"></script>
   </body>
 </html>
