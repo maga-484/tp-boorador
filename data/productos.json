@@ -1,0 +1,93 @@
+[
+  {
+    "id": "1",
+    "nombre": "Vino tinto Merlot",
+    "descripcion": "Tiene una acidez vibrante y fresca, ideal para acompañar comidas",
+    "precio": 8900,
+    "img": "./imagen4/vinomerlot6.png"
+  },
+  {
+    "id": "2",
+    "nombre": "Vino tinto Malbec",
+    "descripcion": "Tiene un color rojo violáceo intenso, cuerpo medio a robusto",
+    "precio": 9500,
+    "img": "./imagen4/vinomalbec.png"
+  },
+  {
+    "id": "3",
+    "nombre": "Vino tinto Cabernet Savignon",
+    "descripcion": "Es un vino equilibrado",
+    "precio": 10000,
+    "img": "./imagen4/vinocabernettinto.png"
+  },
+  {
+    "id": "4",
+    "nombre": "Vino blanco Chardonnay",
+    "descripcion": "Produce vinos con aromas a manzana, cítricos y frutas tropicales",
+    "precio": 10000,
+    "img": "./imagen4/chardonnay3.png"
+  },
+  {
+    "id": "5",
+    "nombre": "Vino blanco Pinot Grigio Cosecha Tardia",
+    "precio": 7900,
+    "descripcion": "Es un vino dulce con buen equilibrio de acidez.",
+    "img": "./imagen4/pinot.png"
+  },
+  {
+    "id": "6",
+    "nombre": "Vino blanco Savignon Cosecha Tardia ",
+    "descripcion": " Es principalmente para los que buscan opciones relajadas.",
+    "precio": 12390,
+    "img": "./imagen4/savingnonblanc2.png"
+  },
+  {
+    "id": "7",
+    "nombre": "Vino blanco Riesling ",
+    "descripcion": "Posee una alta acidez aunque posee frescura",
+    "precio": 13000,
+    "img": "./imagen4/riesling22.png"
+  },
+  {
+    "id": "8",
+    "nombre": "Vino Rosado Malbec ",
+    "descripcion": "Ligero y fácil de beber",
+    "precio": 14000,
+    "img": "./imagen4/rosemalbec22.png"
+  },
+  {
+    "id": "9",
+    "nombre": "Vino Rosado Syrah ",
+    "descripcion": "Fresco, frutal y ligero, con notas de frutas rojas y a veces cítricas.",
+    "precio": 15900,
+    "img": "./imagen4/rosadosyrahnueva.png"
+  },
+  {
+    "id": "10",
+    "nombre": "Vino Rosado Tempranillo ",
+    "descripcion": "Se destaca por su versatilidad, aromas a frutas rojas, tabaco y su gran envejecimiento",
+    "precio": 18900,
+    "img": "./imagen4/rosadotempranillo2.png"
+  },
+  {
+    "id": "11",
+    "nombre": "Champagne Brute Nature ",
+    "descripcion": "Se caracteriza por ser la expresión más pura y pura del vino",
+    "precio": 15900,
+    "img": "./imagen4/champebrutenature.png"
+  },
+  {
+    "id": "12",
+    "nombre": "Champagne Extra Brute ",
+    "descripcion": "Es seco con bajo contenido de azúcar",
+    "precio": 15900,
+    "img": "./imagen4/extrabrute2.png"
+  },
+  {
+    "id": "13",
+    "nombre": "Champagne Dulce ",
+    "descripcion": "Ofrece un sabor suave, afrutado y refrescante. ",
+    "precio": 17000,
+    "img": "./imagen4/champagnedulce.png"
+  }
+]
