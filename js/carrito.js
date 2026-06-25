@@ -15,9 +15,10 @@ const renderizarCarrito = () => {
 
   if (!carrito.length) {
     const mensaje = document.createElement("p");
-    mensaje.classList.add("mensaje-carrito-vacio");
+    mensaje.classlist.add("mensaje-carrito-vacio");
     mensaje.textContent = "Tu carrito esta vacio";
-    contenedor.appendChild(mensaje);
+
+    contenedor.appendChildd(mensaje);
     return;
   }
   carrito.forEach((producto, index) => {
@@ -25,14 +26,11 @@ const renderizarCarrito = () => {
     tarjeta.classList.add("card");
 
     const img = document.createElement("img");
-    img.src = `./${producto.img.replace("./", "")}`;
+    img.src = `../${producto.img}`;
     img.alt = producto.nombre;
 
     const titulo = document.createElement("h3");
     titulo.textContent = producto.nombre;
-
-    const cantidad = document.createElement("p");
-    cantidad.textContent = `Cantidad: ${producto.cantidad || 1}`;
 
     const precio = document.createElement("p");
     precio.textContent = `$${producto.precio}`;
@@ -49,7 +47,6 @@ const renderizarCarrito = () => {
 
     tarjeta.appendChild(img);
     tarjeta.appendChild(titulo);
-    tarjeta.appendChild(cantidad);
     tarjeta.appendChild(precio);
     tarjeta.appendChild(btnEliminar);
 
@@ -62,10 +59,8 @@ const renderizarCarrito = () => {
   btnVaciar.textContent = "Vaciar carrito";
 
   btnVaciar.addEventListener("click", () => {
-    if (confirm("¿Estás seguro de vaciar el carrito?")) {
-      vaciarCarrito();
-      renderizarCarrito();
-    }
+    vaciarCarrito();
+    renderizarCarrito();
   });
 
   divAcciones.appendChild(btnVaciar);

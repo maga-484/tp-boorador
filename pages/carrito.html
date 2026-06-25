@@ -6,17 +6,21 @@
     <title>Carrito</title>
     <link rel="stylesheet" href="../css/styles.css" />
   </head>
-
   <body>
     <header class="header">
       <img src="../imagen4/logo1.png" alt="logo" width="100" height="100 " />
       <nav class="header-nav">
         <ul>
-          <li><a href="../index.html">Inicio</a></li>
-          <li><a href="./contacto.html">Contacto</a></li>
+          <li>
+            <a href="../index.html">Inicio</a>
+          </li>
+          <li>
+            <a href="./contacto.html">Contacto</a>
+          </li>
+
           <li>
             <a href="./carrito.html" class="carrito-icono">
-              <img src="../imagen4/72.png" alt="30" width="30" />
+              <img src="../imagen4/72.png" width="30" height="30" />
               <span id="contador-carrito">0</span>
             </a>
           </li>
@@ -24,23 +28,27 @@
       </nav>
     </header>
     
-      <main>
-        <h1>Carrito de compras</h1> 
-        <section id="contenedor-carrito" class="contenedor-tarjetas"></section>
+    <main>
+      <h1>Carrito de compras</h1>
+      <section id="contenedor-carrito" class="contenedor-tarjetas">
+        <!-- Productos del carrito -->
+      </section>
 
-        <div id="acciones-carrito"  class="acciones-carrito"></div> 
-        <section id="resumen-carrito"></section>
+      <div id="acciones-carrito" class="acciones-carrito">
+        <!-- Botones de eliminar y finalizar compra se agregan desde JS -->
+      </div>
+
+      <section id="resumen-carrito">
+        <!-- Aca ira el resumen del carrito -->
+      </section>
     </main>
-      
-  
+    <footer>
     <footer class="footer">
       <p>Esta pagina fue realizada por Karen</p>
       <p>&copy; 2026 Mi E-Commerce</p>
       <nav>
         <ul class="footer-list">
-          <li>
-            <img src="../imagen4/social.png" alt="logo de whatsapp" />
-          </li>
+          <li><img src="../imagen4/social.png" alt="logo de whatsapp" /></li>
           <li>
             <img src="../imagen4/instagram.png" alt="logo de instagram" />
           </li>
@@ -48,5 +56,5 @@
       </nav>
     </footer>
     <script type="module" src="../js/carrito.js"></script>
-    
+  </body>
 </html>
